@@ -1,0 +1,130 @@
+11:35:55.907 | UaExpert           |                                | Loading plugins...
+11:35:55.907 | UaExpert           |                                | Loaded Devices Plugin (Static Plugin)
+11:35:55.908 | UaExpert           |                                | Loaded Attribute Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Reference Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Data Access Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded History Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Events Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Method Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Performance Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Image Viewer Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Server Diagnostic Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded Data Logger Plugin (Static Plugin)
+11:35:55.910 | UaExpert           |                                | Loaded GDS Push Plugin (Static Plugin)
+11:35:55.911 | UaExpert           |                                | Loaded File Transfer Plugin (Static Plugin)
+11:35:55.911 | UaExpert           |                                | Loaded XML Nodeset Export Plugin (Static Plugin)
+11:35:55.911 | UaExpert           |                                | Loaded PubSub Config Plugin (Static Plugin)
+11:35:55.928 | UaExpert           |                                | Loaded UaExpert's certificate.
+11:35:55.932 | UaExpert           |                                | UaExpert is ready to use.
+11:46:05.402 | Server Node        | Server_PLC                     | Endpoint: 'opc.tcp://192.168.228.229:4840'
+11:46:05.402 | Server Node        | Server_PLC                     | Security policy: 'http://opcfoundation.org/UA/SecurityPolicy#None'
+11:46:05.402 | Server Node        | Server_PLC                     | ApplicationUri: 'urn:SIMATIC.S7-1500.OPC-UA.Application:PLC_3'
+11:46:05.402 | Server Node        | Server_PLC                     | Used UserTokenType: Anonymous
+11:46:05.566 | General            |                                | DataType SimaticStructures not found in dictionary with NamespaceUri http://www.siemens.com/simatic-s7-opcua. Ignoring DataType.
+11:46:05.566 | General            |                                | DataType SimaticSystemStructures not found in dictionary with NamespaceUri http://www.siemens.com/simatic-s7-opcua. Ignoring DataType.
+11:46:05.581 | AddressSpaceModel  | Server_PLC                     | Registered for ModelChangeEvents
+11:46:05.581 | Server Node        | Server_PLC                     | Connection status of server 'Server_PLC' changed to 'Connected'.
+11:46:05.581 | Server Node        | Server_PLC                     | Revised values: SessionTimeout=30000, SecureChannelLifetime=3600000
+11:46:05.586 | AddressSpaceModel  | Server_PLC                     | Browse on node 'i=84' succeeded.
+11:46:05.622 | AddressSpaceModel  | Server_PLC                     | Browse on node 'i=85' succeeded.
+11:46:58.774 | AddressSpaceModel  | Server_PLC                     | Unregister for ModelChangeEvents returned Good
+11:46:58.809 | Server Node        | Server_PLC                     | Connection status of server 'Server_PLC' changed to 'Disconnected'.
+11:46:58.811 | Server Node        | Server_PLC                     | Disconnect succeeded.
+11:48:16.562 | Server Node        | Server_PLC                     | Endpoint: 'opc.tcp://192.168.228.229:4840'
+11:48:16.562 | Server Node        | Server_PLC                     | Security policy: 'http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256'
+11:48:16.562 | Server Node        | Server_PLC                     | ApplicationUri: 'urn:SIMATIC.S7-1500.OPC-UA.Application:PLC_3'
+11:48:16.562 | Server Node        | Server_PLC                     | Used UserTokenType: Anonymous
+11:48:18.125 | General            |                                | DataType SimaticStructures not found in dictionary with NamespaceUri http://www.siemens.com/simatic-s7-opcua. Ignoring DataType.
+11:48:18.125 | General            |                                | DataType SimaticSystemStructures not found in dictionary with NamespaceUri http://www.siemens.com/simatic-s7-opcua. Ignoring DataType.
+11:48:18.143 | AddressSpaceModel  | Server_PLC                     | Registered for ModelChangeEvents
+11:48:18.143 | Server Node        | Server_PLC                     | Connection status of server 'Server_PLC' changed to 'Connected'.
+11:48:18.143 | Server Node        | Server_PLC                     | Revised values: SessionTimeout=30000, SecureChannelLifetime=3600000
+11:48:18.149 | AddressSpaceModel  | Server_PLC                     | Browse on node 'i=84' succeeded.
+11:48:18.189 | AddressSpaceModel  | Server_PLC                     | Browse on node 'i=85' succeeded.
+11:49:08.015 | AddressSpaceModel  | Server_PLC                     | Unregister for ModelChangeEvents returned Good
+11:49:08.044 | Server Node        | Server_PLC                     | Connection status of server 'Server_PLC' changed to 'Disconnected'.
+11:49:08.049 | Server Node        | Server_PLC                     | Disconnect succeeded.
+11:53:53.849 | Server Node        | Server_Simulador               | Endpoint: 'opc.tcp://LAPTOP-LMRCLCMA:53530/OPCUA/SimulationServer'
+11:53:53.849 | Server Node        | Server_Simulador               | Security policy: 'http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256'
+11:53:53.849 | Server Node        | Server_Simulador               | ApplicationUri: 'urn:LAPTOP-LMRCLCMA:OPCUA:SimulationServer'
+11:53:57.900 | Server Node        | Server_Simulador               | Used UserTokenType: Anonymous
+11:53:58.324 | AddressSpaceModel  | Server_Simulador               | Registered for ModelChangeEvents
+11:53:58.324 | Server Node        | Server_Simulador               | Namespace table changed, mapping old to new namespace indices
+11:53:58.324 | Server Node        | Server_Simulador               | Connection status of server 'Server_Simulador' changed to 'Connected'.
+11:53:58.324 | Server Node        | Server_Simulador               | Revised values: SessionTimeout=1200000, SecureChannelLifetime=3600000
+11:53:58.330 | AddressSpaceModel  | Server_Simulador               | Browse on node 'i=84' succeeded.
+11:53:58.364 | AddressSpaceModel  | Server_Simulador               | Browse on node 'i=85' succeeded.
+11:54:46.317 | AddressSpaceModel  | Server_Simulador               | Unregister for ModelChangeEvents returned Good
+11:54:46.337 | Server Node        | Server_Simulador               | Connection status of server 'Server_Simulador' changed to 'Disconnected'.
+11:54:46.343 | Server Node        | Server_Simulador               | Disconnect succeeded.
+11:55:57.539 | Server Node        | Server_Simulador               | Endpoint: 'opc.tcp://LAPTOP-LMRCLCMA:53530/OPCUA/SimulationServer'
+11:55:57.539 | Server Node        | Server_Simulador               | Security policy: 'http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256'
+11:55:57.539 | Server Node        | Server_Simulador               | ApplicationUri: 'urn:LAPTOP-LMRCLCMA:OPCUA:SimulationServer'
+11:56:02.362 | Server Node        | Server_Simulador               | Used UserTokenType: Anonymous
+11:56:02.573 | AddressSpaceModel  | Server_Simulador               | Registered for ModelChangeEvents
+11:56:02.573 | Server Node        | Server_Simulador               | Connection status of server 'Server_Simulador' changed to 'Connected'.
+11:56:02.573 | Server Node        | Server_Simulador               | Revised values: SessionTimeout=1200000, SecureChannelLifetime=3600000
+11:56:02.576 | AddressSpaceModel  | Server_Simulador               | Browse on node 'i=84' succeeded.
+11:56:02.593 | AddressSpaceModel  | Server_Simulador               | Browse on node 'i=85' succeeded.
+11:56:08.676 | Reference Plugin   | Server_Simulador               | Browse succeeded.
+11:56:08.677 | Attribute Plugin   | Server_Simulador               | Read attributes of node 'NS3|Numeric|1007' succeeded [ret = Good].
+11:56:08.797 | AddressSpaceModel  | Server_Simulador               | QascAddressSpaceModel::mimeData
+11:56:10.571 | DA Plugin          |                                | QascDaModel::dropMimeData
+11:56:10.571 | DA Plugin          | Server_Simulador               | No subscription available for ServerId 0
+11:56:10.571 | DA Plugin          | Server_Simulador               | Creating new subscription: ClientHandle=0, PublishingEnable=1, LifeTimeCount=2400, MaxKeepAliveCount=10, Priority=0, PublishingInterval=500, MaxNotificationsPerPublish=0
+11:56:10.578 | DA Plugin          | Server_Simulador               | CreateSubscription succeeded [ret = Good]
+11:56:10.578 | DA Plugin          | Server_Simulador               | Revised values: LifeTimeCount=2400, MaxKeepAliveCount=10, Priority=0, PublishingInterval=500, SubscriptionId=3
+11:56:10.578 | DA Plugin          | Server_Simulador               | Created subscription for ServerId 0
+11:56:10.618 | DA Plugin          | Server_Simulador               | Item [NS3|Numeric|1007]: SamplingInterval=250, QueueSize=1, DiscardOldest=1, ClientHandle=1
+11:56:10.626 | DA Plugin          | Server_Simulador               | CreateMonitoredItems succeeded [ret = Good]
+11:56:10.626 | DA Plugin          | Server_Simulador               | Item [NS3|Numeric|1007] succeeded : RevisedSamplingInterval=250, RevisedQueueSize=1, MonitoredItemId=1 [ret = Good]
+11:56:13.181 | Reference Plugin   | Server_Simulador               | Browse succeeded.
+11:56:13.235 | Attribute Plugin   | Server_Simulador               | Read attributes of node 'NS3|String|1001' succeeded [ret = Good].
+11:56:13.293 | AddressSpaceModel  | Server_Simulador               | QascAddressSpaceModel::mimeData
+11:56:13.627 | DA Plugin          |                                | QascDaModel::dropMimeData
+11:56:13.627 | DA Plugin          | Server_Simulador               | Found existing subscription for ServerId 0
+11:56:13.627 | DA Plugin          | Server_Simulador               | Item [NS3|String|1001]: SamplingInterval=250, QueueSize=1, DiscardOldest=1, ClientHandle=3
+11:56:13.632 | DA Plugin          | Server_Simulador               | CreateMonitoredItems succeeded [ret = Good]
+11:56:13.632 | DA Plugin          | Server_Simulador               | Item [NS3|String|1001] succeeded : RevisedSamplingInterval=250, RevisedQueueSize=1, MonitoredItemId=2 [ret = Good]
+11:56:24.159 | AddressSpaceModel  | Server_Simulador               | Unregister for ModelChangeEvents returned Good
+11:56:25.309 | Server Node        | Server_Simulador               | Connection status of server 'Server_Simulador' changed to 'Disconnected'.
+11:56:25.309 | DA Plugin          | Server_Simulador               | Deleting subscription 0
+11:56:25.312 | Server Node        | Server_Simulador               | Disconnect succeeded.
+11:57:35.573 | Server Node        | Server_Simulador               | Endpoint: 'opc.tcp://LAPTOP-LMRCLCMA:53530/OPCUA/SimulationServer'
+11:57:35.573 | Server Node        | Server_Simulador               | Security policy: 'http://opcfoundation.org/UA/SecurityPolicy#None'
+11:57:35.573 | Server Node        | Server_Simulador               | ApplicationUri: 'urn:LAPTOP-LMRCLCMA:OPCUA:SimulationServer'
+11:57:37.402 | Server Node        | Server_Simulador               | Used UserTokenType: Anonymous
+11:57:37.495 | AddressSpaceModel  | Server_Simulador               | Registered for ModelChangeEvents
+11:57:37.495 | Server Node        | Server_Simulador               | Connection status of server 'Server_Simulador' changed to 'Connected'.
+11:57:37.495 | Server Node        | Server_Simulador               | Revised values: SessionTimeout=1200000, SecureChannelLifetime=3600000
+11:57:37.497 | AddressSpaceModel  | Server_Simulador               | Browse on node 'i=84' succeeded.
+11:57:37.512 | AddressSpaceModel  | Server_Simulador               | Browse on node 'i=85' succeeded.
+11:57:37.548 | DA Plugin          | Server_Simulador               | Creating new subscription: ClientHandle=1, PublishingEnable=1, LifeTimeCount=2400, MaxKeepAliveCount=10, Priority=0, PublishingInterval=500, MaxNotificationsPerPublish=0
+11:57:37.553 | DA Plugin          | Server_Simulador               | CreateSubscription succeeded [ret = Good]
+11:57:37.553 | DA Plugin          | Server_Simulador               | Revised values: LifeTimeCount=2400, MaxKeepAliveCount=10, Priority=0, PublishingInterval=500, SubscriptionId=5
+11:57:37.553 | DA Plugin          | Server_Simulador               | Item [NS3|Numeric|1007]: SamplingInterval=250, QueueSize=1, DiscardOldest=1, ClientHandle=1
+11:57:37.553 | DA Plugin          | Server_Simulador               | Item [NS3|String|1001]: SamplingInterval=250, QueueSize=1, DiscardOldest=1, ClientHandle=3
+11:57:37.559 | DA Plugin          | Server_Simulador               | CreateMonitoredItems succeeded [ret = Good]
+11:57:37.559 | DA Plugin          | Server_Simulador               | Item [NS3|Numeric|1007] succeeded : RevisedSamplingInterval=250, RevisedQueueSize=1, MonitoredItemId=1 [ret = Good]
+11:57:37.559 | DA Plugin          | Server_Simulador               | Item [NS3|String|1001] succeeded : RevisedSamplingInterval=250, RevisedQueueSize=1, MonitoredItemId=2 [ret = Good]
+11:57:42.311 | Reference Plugin   | Server_Simulador               | Browse succeeded.
+11:57:42.312 | Attribute Plugin   | Server_Simulador               | Read attributes of node 'NS3|Numeric|1007' succeeded [ret = Good].
+11:57:42.410 | AddressSpaceModel  | Server_Simulador               | QascAddressSpaceModel::mimeData
+11:57:43.629 | DA Plugin          |                                | QascDaModel::dropMimeData
+11:57:43.629 | DA Plugin          | Server_Simulador               | Found existing subscription for ServerId 0
+11:57:43.629 | DA Plugin          | Server_Simulador               | Item [NS3|Numeric|1007]: SamplingInterval=250, QueueSize=1, DiscardOldest=1, ClientHandle=5
+11:57:43.633 | DA Plugin          | Server_Simulador               | CreateMonitoredItems succeeded [ret = Good]
+11:57:43.633 | DA Plugin          | Server_Simulador               | Item [NS3|Numeric|1007] succeeded : RevisedSamplingInterval=250, RevisedQueueSize=1, MonitoredItemId=3 [ret = Good]
+11:57:47.441 | Reference Plugin   | Server_Simulador               | Browse succeeded.
+11:57:47.502 | Attribute Plugin   | Server_Simulador               | Read attributes of node 'NS3|String|1001' succeeded [ret = Good].
+11:57:47.813 | AddressSpaceModel  | Server_Simulador               | Browse on node 'ns=3;s=1001' succeeded.
+11:57:47.900 | AddressSpaceModel  | Server_Simulador               | QascAddressSpaceModel::mimeData
+11:57:48.503 | DA Plugin          |                                | QascDaModel::dropMimeData
+11:57:48.503 | DA Plugin          | Server_Simulador               | Found existing subscription for ServerId 0
+11:57:48.503 | DA Plugin          | Server_Simulador               | Item [NS3|String|1001]: SamplingInterval=250, QueueSize=1, DiscardOldest=1, ClientHandle=7
+11:57:48.506 | DA Plugin          | Server_Simulador               | CreateMonitoredItems succeeded [ret = Good]
+11:57:48.506 | DA Plugin          | Server_Simulador               | Item [NS3|String|1001] succeeded : RevisedSamplingInterval=250, RevisedQueueSize=1, MonitoredItemId=4 [ret = Good]
+11:58:01.323 | AddressSpaceModel  | Server_Simulador               | Unregister for ModelChangeEvents returned Good
+11:58:02.486 | Server Node        | Server_Simulador               | Connection status of server 'Server_Simulador' changed to 'Disconnected'.
+11:58:02.486 | DA Plugin          | Server_Simulador               | Deleting subscription 1
+11:58:02.491 | Server Node        | Server_Simulador               | Disconnect succeeded.
